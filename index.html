@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Pranshu Sharma | Portfolio</title>
+  </head>
+  <body>
+
+    <div class="flex1">
+      <div style="float:right"><a class="active" href="#">Home</a></div>
+      <div><a href="#section2">Skills</a></div>
+      <div><a href="#section3">Experience</a></div>
+      <div><a href="#section4">Projects</a></div>
+    </div>
+
+    <section id="section1" >
+      <div class="flex2">
+        <div class="flex2_1">
+          <img src="images/pic.jpg" alt="" class="wow pulse" data-wow-delay="0.02s">
+        </div>
+        <div class="flex2_2" >
+          <p class="wow shake" data-wow-delay="0.02s">Hello, I'm Pranshu.</p>
+          <p class="wow shake" data-wow-delay="0.02s">I'm a MEAN Stack developer.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="section2" class="wow fadeIn" data-wow-delay="0.50s" data-wow-offset="170">
+        <p >SKILLS</p>
+        <p >These are the technologies that I work with.</p>
+        <div class="flex3">
+          <div><img src="images/html.png" alt="html"></div>
+          <div><img src="images/css.png" alt=""></div>
+          <div><img src="images/js.png" alt=""></div>
+          <div><img src="images/jquery.png" alt=""></div>
+          <div><img src="images/angular.png" alt=""></div>
+          <div><img src="images/node.png" alt=""></div>
+          <div><img src="images/mongo.png" alt=""></div>
+          <div><img src="images/express.png" alt=""></div>
+          <div><img src="images/bootstrap.png" alt=""></div>
+        </div>
+    </section>
+
+    <section id="section3" class="wow bounceInUp" data-wow-offset="170">
+      <p id="exp">EXPERIENCE</p>
+      <ol>
+        <li>
+          <p class="heading">Internship at Pinpico</p>
+          <ul class="bullets">
+            <li>Duration - 3 Months  (Feb 1, 2017 - April 30, 2017)</li>
+            <li>Profile - Social Media Marketer </li>
+            <li>Responsibilities - Boosted the social media traffic of pinpico.in</li>
+          </ul>
+        </li>
+
+        <li><p class="heading">Internship at Connaizen</p>
+          <ul class="bullets">
+            <li>Duration - 3 Months (Feb 1, 2018 - April 30, 2018)</li>
+            <li>Profile - Software Developer</li>
+            <li>Responsibilities - Worked on the design and functionality of a chrome extension, as well as its website.</li>
+          </ul>
+        </li>
+      </ol>
+
+    </section>
+
+
+    <section id="section4" class="wow lightSpeedIn" data-wow-offset="170">
+      <p id="proj">PROJECTS</p>
+
+        <div class="flex4">
+          <div class="flex4_1">
+            <img src="images/Work_3.png" alt="">
+          </div>
+          <div class="flex4_2">
+            <p>A Landing Page made for a Business "Light Steel Framework Studio"</p>
+            <button type="button" name="button">VIEW PROJECT</button>
+          </div>
+
+        </div>
+
+        <div class="flex5">
+          <div class="flex5_1">
+            <img src="images/Work_4.png" alt="">
+          </div>
+          <div class="flex5_2">
+            <p>A sample Landing Page for a Product-Based Company.</p>
+            <button type="button" name="button">VIEW PROJECT</button>
+          </div>
+        </div>
+
+    </section>
+
+    <footer>
+      <p>&copy Pranshu Sharma</p>
+    </footer>
+
+
+    <script src="js/wow.min.js"></script>
+    <script>
+    wow = new WOW(
+                      {
+                      boxClass:     'wow',      // default
+                      animateClass: 'animated', // default
+                      offset:       0,          // default
+                      mobile:       false,       // default
+                      live:         false        // default
+                    }
+                    )
+                    wow.init();
+    </script>
+  </body>
+</html>
