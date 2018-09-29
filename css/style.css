@@ -262,24 +262,24 @@ footer p{
     max-width: 18vw;
     max-height: 15vh;
   }
-  .flex4,.flex5{
+  .flex4,.flex5,.flex6,.flex7,.flex8{
     flex-direction: column;
   }
-  .flex4_1, .flex5_1{
+  .flex4_1, .flex5_1, .flex6_1, .flex7_1, .flex8_1{
     width: 80vw;
   }
-  .flex4_1 img, .flex5_1 img{
+  .flex4_1 img, .flex5_1 img, .flex6_1 img, .flex7_1 img, .flex8_1 img{
     width: 80vw;
   }
-  .flex4_2, .flex5_2{
+  .flex4_2, .flex5_2, .flex6_2, .flex7_2, .flex8_2{
     width: 70vw;
     padding-left: 0px;
   }
-  .flex4_2 p,.flex5_2 p{
+  .flex4_2 p,.flex5_2 p,.flex6_2 p,.flex7_2 p,.flex8_2 p{
     text-align: center;
     font-size: 4vw;
   }
-  .flex4_2 button,.flex5_2 button{
+  .flex4_2 button,.flex5_2 button,.flex6_2 button,.flex7_2 button,.flex8_2 button{
     margin:auto;
     display:block;
   }
