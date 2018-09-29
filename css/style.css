@@ -136,12 +136,12 @@ box-shadow: inset 0px 2px 11px 5px rgba(0,0,0,0.27);
   text-align: center;
 }
 
-#section4 .flex4_2 .flex5_2 p{
+#section4 .flex4_2 .flex5_2 .flex6_2 .flex7_2 .flex8_2 p{
   font-size: 30px;
   font-weight: 600;
 }
 
-.flex4{
+.flex4,.flex6,.flex8{
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -149,33 +149,33 @@ box-shadow: inset 0px 2px 11px 5px rgba(0,0,0,0.27);
   padding-bottom: 50px;
 }
 
-.flex4_1 img{
+.flex4_1 img,.flex6_1 img,.flex8_1 img{
   width: 50vw;
   border-radius: 7px;
   -webkit-box-shadow: 0px 2px 11px 5px rgba(0,0,0,0.27);
 box-shadow: 0px 2px 11px 5px rgba(0,0,0,0.27);
 }
 
-.flex4_2{
+.flex4_2,.flex6_2,.flex8_2{
   padding-left: 30px;
   width: 30vw;
 }
 
-.flex5{
+.flex5,.flex7{
   display: flex;
   align-items: center;
   justify-content: space-around;
   flex-wrap: wrap;
 }
 
-.flex5_1 img{
+.flex5_1 img,.flex7_1 img{
   width: 50vw;
   border-radius: 7px;
   -webkit-box-shadow: 0px 2px 11px 5px rgba(0,0,0,0.27);
 box-shadow: 0px 2px 11px 5px rgba(0,0,0,0.27);
 }
 
-.flex5_2{
+.flex5_2,.flex7_2{
   order: -1;
   padding-left: 30px;
   width: 30vw;
